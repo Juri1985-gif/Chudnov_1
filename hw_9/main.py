@@ -9,7 +9,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("Предсказание стоимости недвижимости")
+st.title("Предсказание стоимости недвижимости.")
 
 df = load_dataset()
 model_path = 'rf_fitted.pkl'
